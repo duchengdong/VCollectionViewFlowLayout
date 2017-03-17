@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol  VCollectionViewFlowLayout.mDelegate<UICollectionViewDelegateFlowLayout>
+@protocol  VCollectionViewFlowLayoutDelegate<UICollectionViewDelegateFlowLayout>
 @end
-@interface VCollectionViewFlowLayout.m : UICollectionViewFlowLayout
+@interface VCollectionViewFlowLayout: UICollectionViewFlowLayout
 @property (nonatomic,weak) id<VCollectionViewFlowLayoutDelegate> delegate;
 @end
